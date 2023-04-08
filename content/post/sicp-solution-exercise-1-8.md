@@ -18,7 +18,6 @@ type: posts
 Using the same improvement for large and small number from exercise 1.7:
 
 ```scheme
-(define (cube x) (* x x x))
 
 (define (good-enough? previous-guess guess)
   (< (abs (/ (- guess previous-guess) guess)) 0.00000000001))
